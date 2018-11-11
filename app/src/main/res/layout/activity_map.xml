@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/fragment_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.main.MainActivity" />
+
+    <Button
+        android:id="@+id/button_map_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/map_save_button"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone" />
+
+</FrameLayout>

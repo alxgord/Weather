@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="map_enter_your_city">Enter your city</string>
+    <string name="map_gps_disabled">GPS is not Enabled</string>
+    <string name="map_gps_enable_question">Do you want to turn on GPS?</string>
+    <string name="map_action_yes">Yes</string>
+    <string name="map_action_no">No</string>
+    <string name="map_save_button">Save location</string>
+    <string name="map_long_click_hint">Long click to choose location manually</string>
+    <string name="forecast_snackbar_retry_title">Loading error</string>
+    <string name="forecast_snackbar_retry_action">Retry</string>
+    <string name="forecast_location_label">Location: %1$s</string>
+    <string name="forecast_button_change_location">Change</string>
+    <string name="forecast_item_weather_temp">%1$d °C</string>
+</resources>
